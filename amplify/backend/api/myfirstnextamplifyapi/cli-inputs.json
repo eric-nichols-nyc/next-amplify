@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/items/{id}": {
+      "name": "/items/{id}",
+      "lambdaFunction": "nextamplifieda09503b4",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
